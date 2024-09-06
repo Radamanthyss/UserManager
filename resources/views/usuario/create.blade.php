@@ -181,7 +181,12 @@
             const data = await response.json();
 
             if (data.erro) {
-                alert('CEP Inválido!')
+                enderecoInput.value = "";
+                cidadeInput.value = "";
+                bairroInput.value = "";
+                estadoInput.value = "";
+
+                alert("CEP Inválido!")
             }
 
             if (!data.erro) {
