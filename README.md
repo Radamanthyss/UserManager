@@ -15,3 +15,5 @@ Foi utilizado Laravel 10, modelo monólito com uso de Html, Css e JS para fazer 
 O Objetivo foi utilizar interface bem simplificada para facil operação e mais agilidade em carregamentos.
 
 Desenvolvido Por este que vos fala, Bruno Brasil Weiber.
+<br>
+OBS: Decidi apenas implementar o busca cep na tela de cadastro e no sistema não aparece um usuario que foi "removido" conforme solicitado, mas na exportação pdf consta todos independente de ter sido "removido" ou não, isso tudo foi decisão minha baseado no meu entendimento seguindo as regras do que foi pedido, qualquer dúvida estou à disposição. 

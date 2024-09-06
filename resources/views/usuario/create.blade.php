@@ -57,7 +57,7 @@
                             <div class="mb-3">
                                 <label for="cpf">CPF</label>
                                 <input type="number" name="cpf" class="form-control" value="{{ old('cpf') }}"
-                                    maxlength="11" minlength="11" required />
+                                    maxlength="11" minlength="11" />
                                 @error('cpf')
                                     <span class="text-danger">{{ $message }}</span>
                                 @enderror
@@ -88,7 +88,7 @@
                             <div class="mb-3">
                                 <label for="cep">CEP</label>
                                 <input type="number" name="cep" id="cep" class="form-control"
-                                    value="{{ old('cep') }}" maxlength="8" minlength="8" required />
+                                    value="{{ old('cep') }}" maxlength="8" minlength="8" />
                                 @error('cep')
                                     <span class="text-danger">{{ $message }}</span>
                                 @enderror
@@ -180,13 +180,16 @@
 
             const data = await response.json();
 
-            console.log(data);
-            /* console.log(data.erro); */
+            if (data.erro) {
+                alert('CEP Inválido!')
+            }
 
-            enderecoInput.value = data.logradouro;
-            cidadeInput.value = data.localidade;
-            bairroInput.value = data.bairro;
-            estadoInput.value = data.uf;
+            if (!data.erro) {
+                enderecoInput.value = data.logradouro;
+                cidadeInput.value = data.localidade;
+                bairroInput.value = data.bairro;
+                estadoInput.value = data.uf;
+            }
         };
     </script>
 
