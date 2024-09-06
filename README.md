@@ -16,4 +16,4 @@ O Objetivo foi utilizar interface bem simplificada para facil operação e mais 
 
 Desenvolvido Por este que vos fala, Bruno Brasil Weiber.
 <br>
-OBS: Decidi apenas implementar o busca cep na tela de cadastro e no sistema não aparece um usuario que foi "removido" conforme solicitado, mas na exportação pdf consta todos independente de ter sido "removido" ou não, isso tudo foi decisão minha baseado no meu entendimento seguindo as regras do que foi pedido, qualquer dúvida estou à disposição. 
+OBS: Todas as regras de negócio foram implementadas conforme solicitado, e sobre a feature busca cep foi inserida somente na tela de cadastro, na exportação do pdf consta todos os usuarios independente de ter sido "removido" ou não, pois achei que fazia sentido dessa forma, isso tudo foi decisão minha baseado no meu entendimento seguindo as regras do que foi pedido, qualquer dúvida estou à disposição. 
