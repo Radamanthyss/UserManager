@@ -20,7 +20,7 @@ OBS: Todas as regras de negócio foram implementadas conforme solicitado, e sobr
 
 ## Curiosidades
 
-Eu achei que seria legal deixar meu outro projeto que ficou de lado pra focar neste aqui, eu estava desenvolvendo esse teste em laravel 10 no back e angular 16 no front, mas decidi focar neste aqui, se quem for avaliar tiver interesse em ver o que foi feito segue os links dos respos:
+Eu achei que seria legal deixar meu outro projeto que ficou de lado pra focar neste aqui, eu estava desenvolvendo esse teste em laravel 10 no back e angular 16 no front, mas decidi focar neste aqui, se quem for avaliar tiver interesse em ver o que foi feito segue os links dos repos:
 <br>
 BACK-END -> https://github.com/Radamanthyss/UserManagerApi
 <br>
